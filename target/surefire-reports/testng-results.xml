@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-19T11:10:46Z" name="Surefire suite" finished-at="2022-09-19T11:11:21Z" duration-ms="35623">
+    <groups>
+    </groups>
+    <test started-at="2022-09-19T11:10:46Z" name="Surefire test" finished-at="2022-09-19T11:11:21Z" duration-ms="35623">
+      <class name="testpackage.TestClass">
+        <test-method is-config="true" signature="chromelaunch()[pri:0, instance:testpackage.TestClass@77e4c80f]" started-at="2022-09-19T16:40:46Z" name="chromelaunch" finished-at="2022-09-19T16:41:14Z" duration-ms="27998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromelaunch -->
+        <test-method signature="homepage_keysenter(java.lang.String, java.lang.String)[pri:1, instance:testpackage.TestClass@77e4c80f]" started-at="2022-09-19T16:41:17Z" name="homepage_keysenter" description="TestCheck" data-provider="sampledata" finished-at="2022-09-19T16:41:19Z" duration-ms="2423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saran]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saran@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage_keysenter -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testpackage.TestClass@77e4c80f]" started-at="2022-09-19T16:41:19Z" name="getResult" finished-at="2022-09-19T16:41:20Z" duration-ms="401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homepage_keysenter status=SUCCESS method=TestClass.homepage_keysenter(java.lang.String, java.lang.String)[pri:1, instance:testpackage.TestClass@77e4c80f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="driverclose()[pri:0, instance:testpackage.TestClass@77e4c80f]" started-at="2022-09-19T16:41:20Z" name="driverclose" finished-at="2022-09-19T16:41:21Z" duration-ms="1540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
+      </class> <!-- testpackage.TestClass -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
